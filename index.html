@@ -1,0 +1,273 @@
+<html>
+    <head>
+        
+        <title>card</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+        <style>
+            *{
+                padding: 0;
+                margin:0 ;
+            }
+            
+            .task a{
+              display:inline;
+              margin-left: 10px;
+              color: black;
+              text-decoration: none;
+              /*width:70% ;
+              font-size:1.4rem ;
+              text-align:left;*/
+            }
+            .task{
+                
+               width:70% ;
+              font-size:1.4rem ;
+              text-align: end;
+            }
+            
+            .topbar{
+                height: 80px;
+                background-color:#339933;
+                display: flex;
+                align-items:center;
+                justify-content: space-evenly;
+            }
+            .heading1{
+                font-size: 1.5rem;
+                padding: 1rem;
+                text-align: center;
+                color: black;
+                text-shadow: 3px 3px 3px yellow;
+            } 
+            .heading1:hover{
+                font-size: 1.6rem;
+                transition: 1s;
+            }
+            img{
+                float: left;
+                height: 200px;
+                width: 250px;
+            }
+            img:hover{
+                transition:1s ;
+                box-shadow: 2px 2px 2px black;
+            }
+            .div1{
+                display: grid;
+                grid-template-columns:1fr 1fr;
+                grid-template-rows:1fr 1fr;
+                 width:80vw;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 5px 5px 5px;
+            }
+            .div1:hover{
+                box-shadow: 5px 5px 25px rgb(114, 247, 114);
+            }
+            .things{
+                height: 300px;
+                width: 450px;
+                border-radius: 7px 7px 7px;
+                background-color:rgb(212, 250, 137);
+                border: 3px solid black;
+                box-shadow: 3px 3px 3px black;
+                margin: 10px;
+                text-align: center;
+            }
+            .things:hover{
+                transition: 1s;
+                background-color:rgb(245, 216, 163);
+                color:darkblue ;
+                box-shadow:3px 3x 3px black;
+            }
+            p{
+                font-family: 'Satisfy', cursive;
+            }
+            h3{
+                font-size:1.5rem ;
+                font-family: 'Caprasimo', cursive;
+            }
+            body{
+                background:linear-gradient(100deg,grey,#40bf40,#66cc66,grey) ;
+            }
+
+            .footer{
+                background-color: #24262b;
+                padding:70px 0 ;
+
+            }
+            .container{
+                max-width:1170px ;
+                margin: auto;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+            ul{
+                list-style: none;
+            }
+            .footer-col{
+                width:25%;
+                padding:0 15px;
+            }
+            .footer-col h4{
+                font-size:18px ;
+                color:#ffffff;
+                text-transform: capitalize;
+                margin-bottom:35px ;
+                font-weight:500 ;
+                position: relative;
+            }
+            .footer-col ul li a{
+                font-size:16px ;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight:300 ;
+                color:#bbbbbb;
+                display:block ;
+                transition: all 0.3s ease;
+            }
+            .footer-col ul li a:hover{
+                color:#ffffff;
+                padding-left:7px ;
+            }
+            .footer-col .social-links a{
+                display: inline-block;
+               /* height:40px ;
+                width:40px ;*/
+                margin:0 10px 10px 0;                 
+                text-align: center;
+                line-height:40px;
+                color:#ffffff;
+            }
+            
+
+            
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="topbar">
+                <div class="task">
+                    <b>
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Contact Us</a>
+                    </b>
+                </div>
+            </div>
+            <hr>
+
+            <div class="heading1">
+                <u><h1>Famous Vegetarian Dish</h1></u>
+            </div>
+        </header>
+        <div class="div1">
+            <div class="things">
+                <img src="pic1.jpg" >
+                <h3>Kappamaki </h3>
+                <br><br>
+                <div>
+                    <p>Kappamaki is one of the most common sushi varieties consisting of nori seaweed, vinegar-flavored sushi rice, and sliced cucumbers, preferably thin and seedless Japanese cucumbers. This sushi variety belongs to the wide group of makizushi (rolled sushi), and it is traditionally served sliced into bite-size pieces and accompanied by soy sauce, pickled ginger, and wasabi.</p>
+                </div>
+            </div>
+            <div class="things">
+                <img src="pic2.jpg">
+                <h3>Sunomono</h3>
+                <br><br>
+                <div>
+                    <p>Sunomono is a popular Japanese cucumber salad seasoned with a lightly sweetened dressing consisting of vinegar and soy sauce. Simple and refreshing, alongside thinly sliced cucumbers it can incorporate various other ingredients such as seafood, seaweed strips, or toasted sesame seeds.</p>
+                </div>
+            </div>
+            <div class="things">
+                <img src="pic3.jpg">
+                <h3>Paneer tikka</h3>
+                <br><br>
+                <div>
+                    <p>
+                        Pieces of paneer, tomatoes, onions, and peppers are skewered, grilled, and then seasoned with lemon juice and chaat masala - a spicy powder. Sometimes the dish is served with various salads or mint chutney on the side. Variations on the dish include paneer tikka masala, which is served with spicy gravy, and paneer tikka rolls, which are wrapped in Indian bread.
+                    </p>
+                </div>
+            </div>
+            <div class="things">
+                <img src="pic4.jpg">
+                <h3>Atsuage</h3>
+                <br><br>
+                <div>
+                    <p>
+                        Atsuage is a traditional Japanese dish consisting of deep-fried tofu. The slices of tofu are wrapped in kitchen paper and weighed down with a small weight so the water drains well. They are then deep-fried until golden brown, puffy, and slightly crunchy on the exterior.
+                    </p>
+                </div>
+            </div>
+            <div class="things">
+                <img src="pic5.jpg">
+                <h3>Loubia</h3>
+                <br><br>
+                <div>
+                    <p>
+                        Loubia is a traditional North African dish consisting of stewed white beans. This dish is very popular in Moroccan, Tunisian, Algerian, and Libyan homes, where the beans that have been simmered in a zesty tomato-based sauce are typically scooped up with homemade flatbread.
+                    </p>
+                </div>
+            </div>
+            <div class="things">
+                <img src="pic6.jpg">
+                <h3> Mayak gimbap</h3>
+                <br></br>
+                <div>
+                    <p>
+                        Mayak is a popular variety of South Korean rice rolls (gimbap). These mini versions of the standard roll consist of rice, toasted seaweed, and fillings that traditionally include carrots, pickled radish, and spinach. Unlike the traditional gimbap, mayak is never sliced.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">varieties</a></li>
+                            <li><a href="#">Quantities</a></li>
+                        </ul>
+
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#"> FAQ</a></li>
+                            <li><a href="#">delivery</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">oayment option</a></li>
+                            
+                        </ul>
+
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">  
+                             <a href="#"><i class="fa-brands fa-facebook fa-xl" ></i></a>  
+                             <a href="#"><i class="fa-brands fa-twitter fa-xl" ></i></a>
+                             <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                             <a href="#"><i class="fa-brands fa-whatsapp fa-xl"></i></a>  
+                         
+                         </div>
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </footer>
+    </body> 
+</html>
